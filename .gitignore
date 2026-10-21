@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+
+# FFmpeg 執行檔體積過大(約 95MB),不提交到版本控制,
+# 建置前需依 NOTICE.md 的說明自行放置於此目錄。
+resources/ffmpeg/*.exe
